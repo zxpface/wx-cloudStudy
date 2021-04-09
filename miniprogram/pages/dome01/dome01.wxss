@@ -1,0 +1,8 @@
+/* pages/dome01/dome01.wxss */
+button{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+input{
+  border-bottom: rosybrown 1px solid;
+}

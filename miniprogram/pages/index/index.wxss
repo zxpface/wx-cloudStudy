@@ -1,0 +1,5 @@
+
+input,textarea{
+  border-bottom: 1px solid rosybrown;
+  margin-bottom: 10px;
+}

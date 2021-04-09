@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+
+<text>首页</text>
+
+<button type="primary" bindtap="getDaata">获取</button>
+<view wx:for="{{dataObj}}" >
+{{item.title}}--{{item.author}}
+</view>
+
+
+————————————————————————————————————————————————————
+
+<button type="primary" bindtap="addData">插入数据</button>
+--------------------------------------------需要name属性才可以在value显示-------------
+<form action="" bindsubmit="btnSub">
+  <input type="text" placeholder="标题" name="title"/>
+
+  <input type="text" placeholder="作者" name="author"/>
+  <textarea name="content" id="content" cols="30" rows="10" placeholder="内容"></textarea>
+  <button type="primary" form-type="submit">提交</button>
+  <button form-type="reset">重置</button>
+</form>
+
+</view>

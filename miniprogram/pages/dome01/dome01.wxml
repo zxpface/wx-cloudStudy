@@ -1,0 +1,8 @@
+<!--pages/dome01/dome01.wxml-->
+<view>
+<button type="primary" bindtap="updateData">更新数据</button>
+<input type="text" placeholder="输入id" bindinput="myipt"/>
+
+<button type="primary" bindtap="delData">删除一条数据</button>
+
+</view>
